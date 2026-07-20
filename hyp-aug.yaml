@@ -1,0 +1,41 @@
+lr0: 0.00933
+lrf: 0.01
+momentum: 0.94
+weight_decay: 0.00061
+warmup_epochs: 1.77676
+warmup_momentum: 0.77985
+warmup_bias_lr: 0.1
+box: 7.5
+cls: 0.51227
+dfl: 1.49
+pose: 12.0
+kobj: 1.0
+nbs: 64
+hsv_h: 0.01395
+hsv_s: 0.71
+hsv_v: 0.4173
+degrees: 0
+translate: 0.08605
+scale: 0.48
+shear: 0.0
+perspective: 0.00017
+flipud: 0.0
+fliplr: 0.5
+bgr: 0.0
+mosaic: 0.0
+mixup: 1.0
+copy_paste: 0.0
+copy_paste_mode: flip
+auto_augment: randaugment
+erasing: 0.4
+crop_fraction: 1.0
+
+# the following to be deleted when run train
+obj: 0.7  # obj loss gain (scale with pixels)
+obj_pw: 1.0  # obj BCELoss positive_weight
+iou_t: 0.20  # IoU training threshold
+anchor_t: 4.0  # anchor-multiple threshold
+cls_pw: 1.0  # cls BCELoss positive_weight
+fl_gamma: 0.0  # focal loss gamma (efficientDet default gamma=1.5)
+
+               

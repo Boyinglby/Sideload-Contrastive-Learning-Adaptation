@@ -1,0 +1,6 @@
+names:
+  0: car
+path: Nordic-Vehicle-Dataset/data
+test: test.txt
+train: train.txt
+val: val.txt
